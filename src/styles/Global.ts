@@ -24,7 +24,7 @@ export const GlobalStyle=createGlobalStyle`
         scroll-behavior: smooth;
     }
     section{
-    padding:2rem 9%;
+    padding:1rem 4%;
 }
 
 section:nth-child(even){
@@ -60,4 +60,23 @@ section:nth-child(even){
     background-color: var(--green);
     letter-spacing: .1rem;
 }
+@media (max-width:991px){
+    html{
+        font-size: 55%;
+    }
+    header{
+        padding: 1rem 2rem;
+    }
+    section{
+        padding: 2rem;
+    }
+}
+
+@media (max-width:768px){
+    
+    header .fa-bars{
+        display: inline-block;
+        }
+    }
+    
 `;

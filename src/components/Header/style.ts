@@ -20,6 +20,7 @@ export const Logo=styled.a`
   .fa-utensils{
     color: var(--green);
   }
+  
 `;
 
 export const Navbar=styled.nav`
@@ -43,6 +44,7 @@ export const IconsContainer=styled.div`
     .fa-bars{
         display: none;
     }
+    
 `;
 export const Icon=styled.i`
     cursor: pointer;
@@ -69,4 +71,5 @@ export const LinkIcon=styled.a`
         background-color:var(--green);
         transform: rotate(360deg);
     }
+   
 `;
